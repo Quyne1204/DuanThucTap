@@ -1,0 +1,161 @@
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-right: 30px;
+}
+.cart-item .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-left: 7px;
+}
+.cart-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+.cart-item .item-details {
+    display: inline-block;
+    vertical-align: top;
+}
+.cart-item .item-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.cart-item .item-price {
+    color: #888;
+    display: flex;
+}
+.qty {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+.quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.quantity-input input {
+    width: 50px;
+    padding: 0px 0px 0px 5px;
+    text-align: center;
+    border-radius: 0;
+    color: black;
+}
+
+.quantity-input button {
+    width: 100px;
+    height: 40px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+.price {
+    margin-top: 16px;
+}
+.btn-discount {
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    background-color: aqua;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.item-total {
+    margin-top: 20px;
+    padding: 20px;
+}
+.total-title {
+    font-size: 20px;
+}
+.total-qty {
+    float: right;
+    font-size: 27px;
+}
+.total-price {
+    float: right;
+    font-size: 27px;
+    margin-left: 10px;
+}
+.Checkout {
+    margin-right: 20px;
+    float: right;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: aqua;
+}
+.Checkoutbtn {
+    margin-right: 20px;
+    float: right;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: aqua;
+    margin-top: 20px;
+}
+.Checkout-item input {
+    width: 100%;
+}
+/* Định vị cho màn hình di động */
+@media (max-width: 767px) {
+    .cart-item {
+        padding: 5px;
+        display: flex;
+    }
+    .cart-item img {
+        max-width: 100px;
+        max-height: 100px;
+        margin-right: 5px;
+        padding: 0px 0px 0px 10px !important;
+    }
+}
+/* Định vị cho máy tính bảng */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .cart-item {
+        padding: 8px;
+    }
+    .cart-item img {
+        max-width: 75px;
+        max-height: 75px;
+        margin-right: 8px;
+    }
+    .total-qty {
+        font-size: 12px;
+    }
+    .total-price {
+        font-size: 20px;
+    }
+    .total-title {
+        font-size: 12px;
+    }
+}
+
+/* Định vị cho máy tính xách tay và màn hình lớn hơn */
+@media (min-width: 992px) {
+    .cart-item {
+        padding: 10px;
+    }
+    .cart-item img {
+        max-width: 130px;
+        max-height: 130px;
+        margin-right: 10px;
+    }
+}
+/* @media (max-width: ) {
+    .total-price {
+      font-size: 20px;
+    }
+  } */

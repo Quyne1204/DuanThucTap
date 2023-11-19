@@ -1,0 +1,10 @@
+.tg-frontcover,
+.tg-backcover > img {
+    height: 256px;
+}
+@media screen and (max-width: 568px) {
+    .tg-frontcover,
+    .tg-backcover > img {
+        min-height: 500px;
+    }
+}
