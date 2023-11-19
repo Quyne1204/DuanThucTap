@@ -1,3 +1,4 @@
+-   composer update
 -   php artisan serve (Run)
 -   php artisan migrate (Run db)
 -   php artisan db:seed (run fake data) để lấy tài khoản admin,nhân viên, người dùng:
